@@ -13,7 +13,8 @@ void setup (void) {
    Serial.begin (115200);
    pinMode(MISO, OUTPUT); // have to send on master in so it set as output
 
-   SPI.beginTransaction(SPISettings(10000000, MSBFIRST, SPI_MODE1)); // example mode1, adjust as needed
+   // Configure SPI
+   SPI.beginTransaction(SPISettings(10000000, MSBFIRST, SPI_MODE1));
 
    indx = 0; // buffer empty
    process = false;
