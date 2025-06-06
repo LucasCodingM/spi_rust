@@ -1,4 +1,4 @@
-# `stm32f4 - spi`
+# `SPI Interface Between STM32F4 and Arduino: A Practical Guide`
 
 > This project demonstrates how to establish serial communication between an STM32F4 microcontroller and an Arduino board.
 
