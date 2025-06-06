@@ -1,6 +1,6 @@
-# `stm32-template`
+# `stm32f4 - spi`
 
-> A template for building applications for STM32 microcontrollers
+> This project demonstrates how to establish serial communication between an STM32F4 microcontroller and an Arduino board.
 
 ## Dependencies
 
