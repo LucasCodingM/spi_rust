@@ -27,7 +27,7 @@ ISR (SPI_STC_vect) // SPI interrupt routine
    
    if (indx < sizeof( buff)) {
       buff [indx++] = c; // save data in the next index in the array buff
-      if (c == '\r') {
+      if (c == '\r' || c == '\0' || c == '\n') {
          buff[indx] = '\0'; // null terminate the string!
          process = true;
       }
