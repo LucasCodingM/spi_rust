@@ -21,22 +21,7 @@ $ cargo install probe-rs --features cli
   targets. Run:
   
 ``` console
-$ rustup target add thumbv6m-none-eabi thumbv7m-none-eabi thumbv7em-none-eabi thumbv7em-none-eabihf
-```
-
-## Instantiate the template.
-
-1. Run and enter project name
-``` console
-$ cargo generate --git https://github.com/burrbull/stm32-template/
- Project Name: app
-```
-
-2. Specify **chip product name** and answer on several other guide questions.
-
-3. Your program is ready to compile:
-``` console
-$ cargo build --release
+$ rustup target add thumbv7em-none-eabihf
 ```
 
 ## Flash and run/debug
